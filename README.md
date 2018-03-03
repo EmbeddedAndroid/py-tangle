@@ -6,6 +6,9 @@ docker build -t tangle .
 docker run -it tangle:latest python /root/tangle.py --address <tangle address>
 
 # Parameters:
+´
+```
 -a <tangle addres>
 -host http(s)://<node address>
 -port <node port>
+```
